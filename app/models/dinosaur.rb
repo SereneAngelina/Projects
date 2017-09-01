@@ -11,6 +11,6 @@ class Dinosaur < ApplicationRecord
   end
 
   def is_baby?
-    age < 4
+    age < 8
   end
 end
